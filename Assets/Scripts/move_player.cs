@@ -16,9 +16,10 @@ public class move_player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow)){
+        // WASD is method of movement
+        if (Input.GetKey(KeyCode.A)){
             transform.Translate(Vector2.left*speed*Time.deltaTime);
-        } else if (Input.GetKey(KeyCode.RightArrow)){
+        } else if (Input.GetKey(KeyCode.D)){
             transform.Translate(Vector2.right*speed*Time.deltaTime);
         }
     }
