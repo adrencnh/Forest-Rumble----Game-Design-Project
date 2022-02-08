@@ -300,7 +300,6 @@ GameObject:
   - component: {fileID: 712725015}
   - component: {fileID: 712725014}
   - component: {fileID: 712725018}
-  - component: {fileID: 712725019}
   - component: {fileID: 712725017}
   m_Layer: 0
   m_Name: player
@@ -389,7 +388,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712725013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5333, y: -1.3836, z: 0}
+  m_LocalPosition: {x: 9.39, y: 0.45, z: 0}
   m_LocalScale: {x: 3.583185, y: 3.015547, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -408,7 +407,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00052940845, y: -0.0488047}
+  m_Offset: {x: -0.101211056, y: -0.0488047}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -419,7 +418,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3034749, y: 1.5164996}
+  m_Size: {x: 0.78888, y: 1.5164996}
   m_EdgeRadius: 0
 --- !u!114 &712725018
 MonoBehaviour:
@@ -434,21 +433,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
---- !u!114 &712725019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712725013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8229ad4dbd7ce74497f11294322b8fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  platformslayerMask:
+  platformsLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
 --- !u!1 &779743553
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,7 +529,7 @@ GameObject:
   - component: {fileID: 1171640127}
   - component: {fileID: 1171640126}
   - component: {fileID: 1171640125}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: tempstone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -634,7 +621,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171640124}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.78, y: -4.21, z: 0}
+  m_LocalPosition: {x: 2.78, y: -3.64, z: 0}
   m_LocalScale: {x: 0.20313486, y: 0.7477346, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -651,7 +638,7 @@ GameObject:
   - component: {fileID: 1797905125}
   - component: {fileID: 1797905124}
   - component: {fileID: 1797905123}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tempstone (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -743,7 +730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797905122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: -3.81, z: 0}
+  m_LocalPosition: {x: 0.03, y: -3.24, z: 0}
   m_LocalScale: {x: 0.3421825, y: 1.2813407, z: 1.1145}
   m_Children: []
   m_Father: {fileID: 0}
@@ -923,7 +910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064507770}
   - component: {fileID: 2064507769}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1006,8 +993,8 @@ GameObject:
   - component: {fileID: 2081104498}
   - component: {fileID: 2081104497}
   - component: {fileID: 2081104499}
-  m_Layer: 0
-  m_Name: tempdirt
+  m_Layer: 7
+  m_Name: Floor_Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
