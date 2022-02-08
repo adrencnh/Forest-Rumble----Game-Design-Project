@@ -53,3 +53,6 @@ TagManager:
   - name: player
     uniqueID: 2872434487
     locked: 0
+  - name: New Layer
+    uniqueID: 1875522139
+    locked: 0
