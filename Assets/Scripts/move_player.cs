@@ -37,7 +37,7 @@ public class move_player : MonoBehaviour
 
     bool IsGrounded(){
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down, .1f, platformsLayerMask);
-        Debug.Log(raycastHit2d.collider);
+        // Debug.Log(raycastHit2d.collider); // Uncomment previous comment to show when the player is standing on the ground
         return (raycastHit2d.collider != null);
     }
 }
