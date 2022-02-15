@@ -39,7 +39,14 @@ public class move_player : MonoBehaviour
             }
         } else {
             if (Input.GetKey(KeyCode.D)){
-                rigidbody2d.velocity = new Vector2(+speed, rigidbody2d.velocity.y);
+                if (IsGrounded()){
+                    rigidbody2d.velocity = new Vector2(+speed, rigidbody2d.velocity.y);
+                } else {
+                    // change this to change degree to which you can move mid air
+                    float control_in_air = 1f;
+                    rigidbody2d.velocity += new Vector2(+speed * control_in_air * Time.deltaTime, 0);
+                    rigidbody2d.velocity = new Vector2(Mathf.Clamp(rigidbody2d.velocity.x, -speed, +speed), rigidbody2d.velocity.y);
+                }
             } else {
                 // no keys are pressed 
                 if (IsGrounded()){
