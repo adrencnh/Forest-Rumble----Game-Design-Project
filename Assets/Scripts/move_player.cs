@@ -29,12 +29,27 @@ public class move_player : MonoBehaviour
 
         // WASD is method of movement
         if (Input.GetKey(KeyCode.A)){
-            transform.Translate(Vector2.left*speed*Time.deltaTime);
-        } else if (Input.GetKey(KeyCode.D)){
-            transform.Translate(Vector2.right*speed*Time.deltaTime);
+            if (IsGrounded()){
+                rigidbody2d.velocity = new Vector2(-speed, rigidbody2d.velocity.y);
+            } else {
+                // change this to change degree to which you can move mid air
+                float control_in_air = 1f;
+                rigidbody2d.velocity += new Vector2(-speed * control_in_air * Time.deltaTime, 0);
+                rigidbody2d.velocity = new Vector2(Mathf.Clamp(rigidbody2d.velocity.x, -speed, +speed) , rigidbody2d.velocity.y);
+            }
+        } else {
+            if (Input.GetKey(KeyCode.D)){
+                rigidbody2d.velocity = new Vector2(+speed, rigidbody2d.velocity.y);
+            } else {
+                // no keys are pressed 
+                if (IsGrounded()){
+                  rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
+
+                }
+            }
         }
     }
-
+    
     bool IsGrounded(){
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down, .1f, platformsLayerMask);
         // Debug.Log(raycastHit2d.collider); // Uncomment previous comment to show when the player is standing on the ground
