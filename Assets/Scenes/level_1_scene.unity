@@ -18229,11 +18229,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7070837310331839454, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
       propertyPath: launchSpeed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7070837310331839454, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
       propertyPath: launchToPoint
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294491, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: speed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
       propertyPath: m_RootOrder
