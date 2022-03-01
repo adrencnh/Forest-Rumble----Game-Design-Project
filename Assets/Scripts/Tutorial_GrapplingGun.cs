@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class GrapplingArm : MonoBehaviour
+public class Tutorial_GrapplingGun : MonoBehaviour
 {
     [Header("Scripts Ref:")]
-    public GrapplingRope grappleRope;
+    public Tutorial_GrapplingRope grappleRope;
 
     [Header("Layers Settings:")]
     [SerializeField] private bool grappleToAll = false;
