@@ -237,6 +237,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7440683085378917732, guid: c70a04c307c45e4478d055d033b158d5, type: 3}
   m_PrefabInstance: {fileID: 7440683084790828154}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &628332835 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7440683085378917721, guid: c70a04c307c45e4478d055d033b158d5, type: 3}
+  m_PrefabInstance: {fileID: 7440683084790828154}
+  m_PrefabAsset: {fileID: 0}
 --- !u!61 &628332837
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -274,6 +279,7 @@ GameObject:
   - component: {fileID: 1210788207}
   - component: {fileID: 1210788206}
   - component: {fileID: 1210788205}
+  - component: {fileID: 1210788208}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -346,6 +352,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1210788208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210788204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58df8411f981d064ea467f05306865c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 628332835}
+  lerpSpeed: 1.5
 --- !u!1 &1858184063
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,7 +649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7440683085378917733, guid: c70a04c307c45e4478d055d033b158d5, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c70a04c307c45e4478d055d033b158d5, type: 3}
