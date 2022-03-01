@@ -123,6 +123,70 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1001 &7345506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7070837310331839454, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_camera
+      value: 
+      objectReference: {fileID: 233818046}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.404676
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294497, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_Name
+      value: Demo_Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
 --- !u!1 &186132524
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,12 +262,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186132524}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.1532958, y: 0.13303202, z: 14.790848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 0
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.87835, y: 0.90994, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &186570810
 GameObject:
@@ -216,9 +289,13 @@ GameObject:
   - component: {fileID: 186570811}
   - component: {fileID: 186570813}
   - component: {fileID: 186570812}
+<<<<<<< HEAD
   - component: {fileID: 186570814}
   - component: {fileID: 186570815}
   m_Layer: 7
+=======
+  m_Layer: 8
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Name: World
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16137,6 +16214,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD
 --- !u!19719996 &186570814
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -16175,6 +16253,8 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+=======
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
 --- !u!1 &233818044
 GameObject:
   m_ObjectHideFlags: 0
@@ -16283,7 +16363,11 @@ GameObject:
   m_Component:
   - component: {fileID: 389916687}
   - component: {fileID: 389916686}
+<<<<<<< HEAD
   m_Layer: 13
+=======
+  m_Layer: 0
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Name: bg_forest_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16348,12 +16432,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389916685}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.160936, y: 0.13561201, z: 14.790848}
   m_LocalScale: {x: 1.0004275, y: 1.0004275, z: 1.0004275}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 2
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.88599, y: 0.91252, z: 0}
+  m_LocalScale: {x: 1.0004275, y: 1.0004275, z: 1.0004275}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &486962225
 GameObject:
@@ -16365,7 +16458,11 @@ GameObject:
   m_Component:
   - component: {fileID: 486962227}
   - component: {fileID: 486962226}
+<<<<<<< HEAD
   m_Layer: 13
+=======
+  m_Layer: 0
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Name: bg_forest_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16430,12 +16527,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486962225}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.1533058, y: 0.17309201, z: 14.790848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 3
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.87836, y: 0.95, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &513514794
 GameObject:
@@ -16447,7 +16553,11 @@ GameObject:
   m_Component:
   - component: {fileID: 513514796}
   - component: {fileID: 513514795}
+<<<<<<< HEAD
   m_Layer: 13
+=======
+  m_Layer: 0
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Name: bg_forest_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16512,12 +16622,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513514794}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 37.906944, y: 0.13309205, z: 14.790848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 5
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.632, y: 0.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &539414580
 GameObject:
@@ -16529,7 +16648,11 @@ GameObject:
   m_Component:
   - component: {fileID: 539414582}
   - component: {fileID: 539414581}
+<<<<<<< HEAD
   m_Layer: 13
+=======
+  m_Layer: 0
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Name: bg_forest_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16594,12 +16717,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539414580}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 68.17495, y: 0.123091996, z: 14.790848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 10
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 71.9, y: 0.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &588295120
 GameObject:
@@ -16643,7 +16775,11 @@ Transform:
   m_Children:
   - {fileID: 186570811}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 7
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &965859302
 GameObject:
@@ -16655,7 +16791,11 @@ GameObject:
   m_Component:
   - component: {fileID: 965859304}
   - component: {fileID: 965859303}
+<<<<<<< HEAD
   m_Layer: 13
+=======
+  m_Layer: 0
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Name: bg_forest_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16720,12 +16860,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965859302}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 37.894943, y: 0.17309201, z: 14.790848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 8
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.62, y: 0.95, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1161443012
 GameObject:
@@ -16737,7 +16886,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1161443014}
   - component: {fileID: 1161443013}
+<<<<<<< HEAD
   m_Layer: 13
+=======
+  m_Layer: 0
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Name: bg_forest_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16802,12 +16955,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161443012}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 37.899944, y: 0.12809199, z: 14.790848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 6
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.625, y: 0.905, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1163066224
 GameObject:
@@ -16819,7 +16981,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1163066226}
   - component: {fileID: 1163066225}
+<<<<<<< HEAD
   m_Layer: 13
+=======
+  m_Layer: 0
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Name: bg_forest_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16884,12 +17050,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163066224}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 37.904945, y: 0.13309205, z: 14.790848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 7
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.63, y: 0.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1224327133
 GameObject:
@@ -16901,7 +17076,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1224327135}
   - component: {fileID: 1224327134}
+<<<<<<< HEAD
   m_Layer: 13
+=======
+  m_Layer: 0
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Name: bg_forest_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16966,6 +17145,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224327133}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.58305407, y: 0.110092044, z: 14.790848}
   m_LocalScale: {x: 0.8469867, y: 0.9961813, z: 1.0959}
@@ -17011,6 +17191,12 @@ Transform:
   - {fileID: 965859304}
   - {fileID: 2132548472}
   - {fileID: 539414582}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.142, y: 0.887, z: 0}
+  m_LocalScale: {x: 0.8469867, y: 0.9961813, z: 1.0959}
+  m_Children: []
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17089,12 +17275,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966278011}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.1533558, y: 0.13309205, z: 14.790848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 4
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.87841, y: 0.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2132548470
 GameObject:
@@ -17171,12 +17366,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132548470}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 32.432945, y: 0.12409204, z: 14.790848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797486365}
   m_RootOrder: 9
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.158, y: 0.901, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+>>>>>>> parent of 49549c9 (level1 done (need to fix collisions))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &7070837311604248830 stripped
 Transform:
