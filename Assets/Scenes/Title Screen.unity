@@ -1424,7 +1424,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Forest Rumble1
+  m_text: Forest Rumble
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c9474d68eb0455047ac2b8c4391e6948, type: 2}
   m_sharedMaterial: {fileID: -1168136522071872484, guid: c9474d68eb0455047ac2b8c4391e6948, type: 2}
