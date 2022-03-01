@@ -73,13 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-<<<<<<< HEAD:Assets/Prefabs/Demo_Player 1.prefab
   m_SortingLayerID: -615406683
   m_SortingLayer: 8
-=======
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
->>>>>>> parent of 49549c9 (level1 done (need to fix collisions)):Assets/Prefabs/Demo_Player.prefab
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d7d586d4944b81141abfb03d930f36ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -214,15 +209,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:Assets/Prefabs/Demo_Player 1.prefab
   - component: {fileID: 2058391772271371304}
   - component: {fileID: 2058391772271371306}
   - component: {fileID: 2058391772271371307}
-=======
-  - component: {fileID: 7070837310839343766}
-  - component: {fileID: 7070837310839343764}
-  - component: {fileID: 7070837310839343765}
->>>>>>> parent of 49549c9 (level1 done (need to fix collisions)):Assets/Prefabs/Demo_Player.prefab
   m_Layer: 0
   m_Name: Rope
   m_TagString: Untagged
@@ -512,68 +501,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< HEAD:Assets/Prefabs/Demo_Player 1.prefab
 --- !u!61 &2058391772778876259
-=======
---- !u!50 &7070837311605294494
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7070837311605294497}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!231 &7070837311605294495
-SpringJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7070837311605294497}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 1
-  m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.03154087, y: 0}
-  m_AutoConfigureDistance: 1
-  m_Distance: 5.9909196
-  m_DampingRatio: 1
-  m_Frequency: 1
---- !u!114 &7070837311605294491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7070837311605294497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18a2a62145bb8ce4b8d87c20361b3a02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  platformsLayerMask:
-    serializedVersion: 2
-    m_Bits: 128
---- !u!61 &7070837311605294490
->>>>>>> parent of 49549c9 (level1 done (need to fix collisions)):Assets/Prefabs/Demo_Player.prefab
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
