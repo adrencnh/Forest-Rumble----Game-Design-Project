@@ -36,7 +36,7 @@ public class Tutorial_GrapplingGun : MonoBehaviour
     }
 
     [Header("Launching:")]
-    [SerializeField] private bool launchToPoint = true;
+    [SerializeField] public bool launchToPoint = true;
     [SerializeField] private LaunchType launchType = LaunchType.Physics_Launch;
     [SerializeField] private float launchSpeed = 1;
 
@@ -94,6 +94,13 @@ public class Tutorial_GrapplingGun : MonoBehaviour
             Vector2 mousePos = m_camera.ScreenToWorldPoint(Input.mousePosition);
             RotateGun(mousePos, true);
         }
+        
+        if (Input.GetKeyDown(KeyCode.E) && (launchToPoint == false)){
+            launchToPoint = true;
+        } else if (Input.GetKeyDown(KeyCode.E) && (launchToPoint == true)){
+            launchToPoint = false;
+        }
+    
     }
 
     void RotateGun(Vector3 lookPoint, bool allowRotationOverTime)
