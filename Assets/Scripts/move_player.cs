@@ -23,6 +23,7 @@ public class move_player : MonoBehaviour
     void Update()
     {
         if (IsGrounded() && Input.GetKeyDown(KeyCode.Space)){
+            SoundManagerScript.PlaySound("playerJump");
             float jumpVelocity = 7f;
             rigidbody2d.velocity = Vector2.up * jumpVelocity;
         }
