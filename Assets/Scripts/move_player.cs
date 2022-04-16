@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class move_player : MonoBehaviour
 {
-
+    
     public float speed = 3.0f;
     
     [SerializeField] private LayerMask platformsLayerMask;
@@ -22,6 +22,7 @@ public class move_player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (IsGrounded() && Input.GetKeyDown(KeyCode.Space)){
             SoundManagerScript.PlaySound("playerJump");
             float jumpVelocity = 7f;

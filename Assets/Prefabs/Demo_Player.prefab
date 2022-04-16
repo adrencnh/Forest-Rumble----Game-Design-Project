@@ -435,6 +435,7 @@ GameObject:
   - component: {fileID: 7070837311605294495}
   - component: {fileID: 7070837311605294491}
   - component: {fileID: 7070837311605294490}
+  - component: {fileID: 2041682844048824237}
   m_Layer: 0
   m_Name: Demo_Player
   m_TagString: Untagged
@@ -546,7 +547,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: -0.03154087, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 1.8011498
+  m_Distance: 8.095126
   m_DampingRatio: 1
   m_Frequency: 1
 --- !u!114 &7070837311605294491
@@ -591,3 +592,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.33, y: 2.29}
   m_EdgeRadius: 0
+--- !u!95 &2041682844048824237
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7070837311605294497}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7fa80c278cd34074ab1a09292ab8a16a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
