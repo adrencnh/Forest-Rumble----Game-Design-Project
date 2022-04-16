@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Tutorial_GrapplingRope : MonoBehaviour
 {
-    [Header("General Refernces:")]
+    [Header("General References:")]
     public Tutorial_GrapplingGun grapplingGun;
     public LineRenderer m_lineRenderer;
 
