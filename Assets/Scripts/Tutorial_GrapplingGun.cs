@@ -48,18 +48,32 @@ public class Tutorial_GrapplingGun : MonoBehaviour
     [HideInInspector] public Vector2 grapplePoint;
     [HideInInspector] public Vector2 grappleDistanceVector;
 
+    float timer = 0;
+
     private void Start()
     { 
         // set both to false default so that it can be enabled on click
         grappleRope.enabled = false;
         m_springJoint2D.enabled = false;
+        
 
     }
 
     private void Update()
     {
+
+        if (!(Input.GetKeyUp(KeyCode.Mouse0))){
+            timer += Time.deltaTime;
+        }
+        
         if (Input.GetKeyDown(KeyCode.Mouse0)) // mouse input long click
         {
+            print(timer);
+            if (timer > 4.0){
+                print("break rope");
+                //GetComponent<Tutorial_GrapplingRope>().enabled = false;
+            }
+                 
             SetGrapplePoint();
         }
         else if (Input.GetKey(KeyCode.Mouse0)) // click and release

@@ -54,8 +54,10 @@ public class Tutorial_GrapplingRope : MonoBehaviour
 
     private void Update()
     {
+        
         moveTime += Time.deltaTime;
         DrawRope();
+        
     }
 
     void DrawRope()
