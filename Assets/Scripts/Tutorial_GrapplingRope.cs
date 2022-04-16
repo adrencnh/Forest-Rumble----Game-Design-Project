@@ -27,6 +27,7 @@ public class Tutorial_GrapplingRope : MonoBehaviour
 
     private void OnEnable()
     {
+        // the purpose of this script is to use a line rendere paired with a animation curve to mimic a rope moving through space
         moveTime = 0;
         m_lineRenderer.positionCount = percision;
         waveSize = StartWaveSize;
@@ -93,7 +94,8 @@ public class Tutorial_GrapplingRope : MonoBehaviour
         }
     }
 
-    void DrawRopeWaves()
+    void DrawRopeWaves() // makes use of curve and line rendered to create a line the respective wave size, distance, and curve that will connect from 
+    // point A to B based on the position of the mouse, the camera, and the surface
     {
         for (int i = 0; i < percision; i++)
         {

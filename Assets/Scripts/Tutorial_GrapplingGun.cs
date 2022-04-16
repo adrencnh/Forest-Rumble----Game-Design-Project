@@ -2,22 +2,22 @@ using UnityEngine;
 
 public class Tutorial_GrapplingGun : MonoBehaviour
 {
-    [Header("Scripts Ref:")]
+    [Header("Scripts:")] // script to reference the launchable rope
     public Tutorial_GrapplingRope grappleRope;
 
-    [Header("Layers Settings:")]
+    [Header("Layers:")] // set what can/cant be grappled to
     [SerializeField] private bool grappleToAll = false;
     [SerializeField] private int grappableLayerNumber = 9;
 
-    [Header("Main Camera:")]
+    [Header("Camera:")] // setting the camera to center for the grappling hook
     public Camera m_camera;
 
-    [Header("Transform Ref:")]
-    public Transform gunHolder;
+    [Header("Transform:")] // connects the gun to the pivot, firepoint, and the player
+    public Transform gunHolder; 
     public Transform gunPivot;
     public Transform firePoint;
 
-    [Header("Physics Ref:")]
+    [Header("Physics:")] // making use of the springjoint and rigidbody to move the player
     public SpringJoint2D m_springJoint2D;
     public Rigidbody2D m_rigidbody;
 
@@ -25,17 +25,17 @@ public class Tutorial_GrapplingGun : MonoBehaviour
     [SerializeField] private bool rotateOverTime = true;
     [Range(0, 60)] [SerializeField] private float rotationSpeed = 4;
 
-    [Header("Distance:")]
+    [Header("Distance:")] // make distance of grappling hook customizable within unity editor
     [SerializeField] private bool hasMaxDistance = false;
-    [SerializeField] private float maxDistnace = 20;
+    [SerializeField] private float maxDistnace = 20; // uncertain why this value does not change when changed in unity editor
 
-    private enum LaunchType
+    private enum LaunchType // dropdown for type of moving the player
     {
         Transform_Launch,
         Physics_Launch
     }
 
-    [Header("Launching:")]
+    [Header("Launching:")] // This enables when the user presses [e] switching the grappling mode
     [SerializeField] public bool launchToPoint = true;
     [SerializeField] private LaunchType launchType = LaunchType.Physics_Launch;
     [SerializeField] private float launchSpeed = 1;
@@ -49,7 +49,8 @@ public class Tutorial_GrapplingGun : MonoBehaviour
     [HideInInspector] public Vector2 grappleDistanceVector;
 
     private void Start()
-    {
+    { 
+        // set both to false default so that it can be enabled on click
         grappleRope.enabled = false;
         m_springJoint2D.enabled = false;
 
@@ -57,13 +58,13 @@ public class Tutorial_GrapplingGun : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0)) // mouse input long click
         {
             SetGrapplePoint();
         }
-        else if (Input.GetKey(KeyCode.Mouse0))
+        else if (Input.GetKey(KeyCode.Mouse0)) // click and release
         {
-            if (grappleRope.enabled)
+            if (grappleRope.enabled) // disables rotaion connected to mouse, and holds onto surface
             {
                 RotateGun(grapplePoint, false);
             }
@@ -73,7 +74,7 @@ public class Tutorial_GrapplingGun : MonoBehaviour
                 RotateGun(mousePos, true);
             }
 
-            if (launchToPoint && grappleRope.isGrappling)
+            if (launchToPoint && grappleRope.isGrappling) // this is for if the player is on the secondary hook mode, launches to the end of rope
             {
                 if (launchType == LaunchType.Transform_Launch)
                 {
@@ -95,6 +96,7 @@ public class Tutorial_GrapplingGun : MonoBehaviour
             RotateGun(mousePos, true);
         }
         
+        // making use of the variable launchToPoint to switch between modes while doing any other movement
         if (Input.GetKeyDown(KeyCode.E) && (launchToPoint == false)){
             launchToPoint = true;
         } else if (Input.GetKeyDown(KeyCode.E) && (launchToPoint == true)){
