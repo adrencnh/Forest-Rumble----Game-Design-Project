@@ -6,54 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
-<<<<<<< HEAD
-      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
-      flags: 0
-    RecentlyUsedScenePath-1:
-      value: 22424703114646680e0b0227036c4f02135a1c2f21276b232e2c1336acf53a31f6fe
-      flags: 0
-    RecentlyUsedScenePath-2:
-      value: 22424703114646680e0b0227036c6b19021b1d6a1f2b343528275326ece92021
-      flags: 0
-    RecentlyUsedScenePath-3:
-      value: 224247031146467e151a1e2350024c0313030b651c0e6603081d4c7cd1e33136e7a812ecea357129370bfb25
-=======
-      value: 224247031146464b1f0b4126152e505d05141d242966333e243d04
-      flags: 0
-    RecentlyUsedScenePath-1:
       value: 22424703114646680e0b0227036c780217070826296832353e3d5326ece92021
       flags: 0
-    RecentlyUsedScenePath-2:
-      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
-      flags: 0
-    RecentlyUsedScenePath-3:
-      value: 22424703114646680e0b0227036c4f02135a1c2f21276b232e2c1336acf53a31f6fe
->>>>>>> parent of dc270f3 (Level 2 Started)
-      flags: 0
-    RecentlyUsedScenePath-4:
+    RecentlyUsedScenePath-1:
       value: 224247031146467e151a1e2350024c0313030b657e0c660021280935edf2393df0a702e0eb3f2c392d4ddc3f0130042cbd390806e6070f344040e80018eb09
       flags: 0
-    RecentlyUsedScenePath-5:
+    RecentlyUsedScenePath-2:
       value: 224247031146467e151a1e2350024c0313030b657e0c660021280935edf2393df0a702e0eb3f2c392d4ddc3f0130042cbd390806e6070f344340e80018eb09
       flags: 0
-    RecentlyUsedScenePath-6:
+    RecentlyUsedScenePath-3:
       value: 224247031146467e151a1e2350024c0313030b657e0c660021280935edf2393df0a702e0eb3f2c392d4ddc3f0130042cbd390806e6070f344240e80018eb09
       flags: 0
-    RecentlyUsedScenePath-7:
-<<<<<<< HEAD
-      value: 224247031146467e151a1e2350024c0313030b657e0c660021280935edf2393df0a702e0eb3f2c392d4ddc35092e0d3ab23f204bc60a09005e3dfe0b1ffa035c22c415d516cd5109c51008d7
-      flags: 0
-    RecentlyUsedScenePath-8:
-      value: 22424703114646680e0b0227036c5315001214157e1735332827187df7ee3d2cfb
-=======
+    RecentlyUsedScenePath-4:
       value: 224247031146467e151a1e2350024c0313030b651c0e6603081d4c7cd1e33136e7a812ecea357129370bfb25
       flags: 0
-    RecentlyUsedScenePath-8:
+    RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c4f02135a1c2f21276b232e2c1336acf53a31f6fe
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
+      flags: 0
+    RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c6b19021b1d6a1f2b343528275326ece92021
->>>>>>> parent of dc270f3 (Level 2 Started)
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646680e0b0227036c5315001214157d1735332827187df7ee3d2cfb
       flags: 0
     RecentlyUsedScenePath-9:
-      value: 22424703114646680e0b0227036c5315001214157d1735332827187df7ee3d2cfb
+      value: 22424703114646680e0b0227036c5315001214157e1735332827187df7ee3d2cfb
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
