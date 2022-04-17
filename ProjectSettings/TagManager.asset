@@ -56,9 +56,6 @@ TagManager:
   - name: First Trees
     uniqueID: 1875522139
     locked: 0
-  - name: player
-    uniqueID: 2872434487
-    locked: 0
   - name: Background
     uniqueID: 1480686721
     locked: 0
@@ -67,4 +64,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 3450138485
+    locked: 0
+  - name: player
+    uniqueID: 2872434487
     locked: 0
