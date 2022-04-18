@@ -888,6 +888,14 @@ PrefabInstance:
       propertyPath: launchToPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294490, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_Size.y
+      value: 2.9129522
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070837311605294490, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.29147613
+      objectReference: {fileID: 0}
     - target: {fileID: 7070837311605294491, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
       propertyPath: speed
       value: 4
@@ -898,11 +906,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.83
+      value: -9.84
       objectReference: {fileID: 0}
     - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.77
+      value: -4.26
       objectReference: {fileID: 0}
     - target: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3915,6 +3923,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1371358132 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7070837311605294492, guid: 913f15bb06626d942adf8e47497e4a85, type: 3}
+  m_PrefabInstance: {fileID: 314280537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1448247007
 GameObject:
   m_ObjectHideFlags: 0
@@ -52821,6 +52834,7 @@ GameObject:
   - component: {fileID: 1822259131}
   - component: {fileID: 1822259130}
   - component: {fileID: 1822259129}
+  - component: {fileID: 1822259132}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -52893,6 +52907,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1822259132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822259128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58df8411f981d064ea467f05306865c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1371358132}
+  lerpSpeed: 1.5
 --- !u!1 &1826013869
 GameObject:
   m_ObjectHideFlags: 0
