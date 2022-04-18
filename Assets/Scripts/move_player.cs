@@ -29,7 +29,7 @@ public class move_player : MonoBehaviour
             rigidbody2d.velocity = Vector2.up * jumpVelocity;
         }
 
-        // WASD is method of movement
+        // A,D is method of movement
         if (Input.GetKey(KeyCode.A)){
             if (IsGrounded()){
                 rigidbody2d.velocity = new Vector2(-speed, rigidbody2d.velocity.y);
